@@ -17,7 +17,7 @@ function setup(){
   towerImage= tower.addImage("tower",towerImage);
   tower.velocityY=1;
   
-  ghost=createSprite(400,400,20,20);
+  ghost=createSprite(200,200,20,20);
   ghost.addAnimation("ghost",ghostAni);
   ghost.scale=0.3;
   
